@@ -1,0 +1,47 @@
+.hero{
+    background-image: url("../img/pic hero.PNG");
+    height: 200px;
+    margin-bottom: 2rem;
+    
+}
+.single {
+    text-align: center;
+    border: 1px solid rgb(204, 195, 195);
+    padding: 4rem;
+    margin-bottom: 1rem;
+
+}
+.single h6{
+    color: rgb(204, 31, 31);
+}
+.line h5{
+    margin-bottom: 2rem;
+}
+.single span {
+    height: 60px;
+    display: block;
+}
+img{
+    min-height: 298px;
+}
+.line a{
+    color: black;
+    display: block;
+    
+}
+.line{
+    text-align: right;
+    
+    padding-left: 2rem;
+    text-decoration: none;
+    
+}
+.line a.more{
+    color:#009edd;
+}
+.line a.plus{
+    border-top: 1px solid rgb(204, 195, 195);
+    border-bottom: 1px solid rgb(204, 195, 195);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
