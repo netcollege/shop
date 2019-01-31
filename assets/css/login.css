@@ -1,0 +1,42 @@
+body {
+  text-align: right;
+}
+.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+form .mute {
+  border-radius: 5px;
+  width: 250px;
+  height: 60px;
+  margin-bottom:5px;
+  margin-top: 35px;
+  padding-right: 30px;
+  border-style: solid;
+  border-color: #b3b3b3;
+  border-width: 1px;
+  text-align: center;
+}
+.h2 {
+    font-size: 40px;
+}
+button.submit {
+color: #f3eaea;
+padding-right: 5rem;
+padding-left: 6rem;
+padding-bottom: 1rem;
+padding-top: 1rem;
+font-size: 20px;
+text-align: center;
+background-color: #0070c9;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border-style: solid;
+    border-color: #0070c9;
+    border-radius: 5px;
+}
+button.submit:hover {
+    opacity:0.9;
+}
+p a {
+    color: #0ab4f7;
+}
