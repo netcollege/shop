@@ -144,3 +144,16 @@ body {
     font-size: 12px;
     color: #0070c9;
 }
+.slider {
+    position: relative;
+}
+.slider .slide {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    z-index: -1;
+}
+.slider .slide.active {
+    position: relative;
+    opacity: 1;
+}
