@@ -118,3 +118,73 @@ body {
 .bag .cart ul li a i {
     margin-left: 15px;
 }
+.img1{
+    height: 260px;
+    width: 460px;
+}
+.three{
+    text-align: center;
+    padding-top: 60px;
+}
+.img4{
+    width: 400px;
+    height: 500px;
+}
+.img4-1{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 196px;
+
+}
+#A{
+    margin: 8px;
+}
+#Z{
+    margin: 8px;
+}
+#fourtwo img{
+    width: 200px;
+    height: 300px;
+    margin: 8px;
+}
+.img4-3{
+    height: 260px;
+    width: 460px;
+}
+#fourthree2{
+    margin-top: 85px;
+}
+.fivee{
+    text-align: center;
+}
+.h2{
+    margin-top: 60px;
+}
+.p{
+    margin-bottom: 40px;
+}
+#ul{
+    color: #000000;
+    list-style: none;
+}
+.seven{
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+#q{
+    background-color: #f2f2f2;
+}
+.four{
+    background-color: #f2f2f2;
+}
+.five{
+    background-color: #fcf7f7;
+}
+#six{
+    list-style: none;
+}
+a{
+    color: #000;
+}
