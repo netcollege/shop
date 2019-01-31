@@ -1,0 +1,190 @@
+@import url("bootstrap.min.css");
+@import url("fontiran.css");
+@import url("all.min.css");
+body {
+    font-family: "IRANSans";
+    direction: rtl;
+    text-align: right;
+}
+.main-header {
+    background: rgba(0,0,0,0.7);
+}
+.main-header ul.menu {
+    list-style: none;
+    padding-right: 0;
+    margin-bottom: 0;
+    position: static;
+}
+.main-header ul.menu > li {
+    display: block;
+    text-align: center;
+    position: static;
+}
+.main-header ul.menu > li:first-child {
+    text-align: right;
+}
+.main-header ul.menu > li:last-child {
+    text-align: left;
+}
+.main-header ul.menu > li > a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    transition: all 300ms;
+}
+.main-header ul.menu > li > a:hover {
+    color: #ccc;
+    text-decoration: unset;
+}
+.main-header ul.menu > li:hover > .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.main-header ul.menu > li > .mega-menu {
+    background: #f1f1f1;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    padding: 15px 0;
+    opacity: 0;
+    transform: translateY(150px);
+    visibility: hidden;
+    transition: all 500ms;
+}
+.main-header ul.menu > li > .mega-menu ul {
+    list-style: none;
+    padding-right: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+.main-header ul.menu > li > .mega-menu ul li a {
+    color: #333;
+}
+.bag .num {
+    background: #00b7ff;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+.main-header ul.menu > li.bag {
+    position: relative;
+}
+.bag .cart {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #333;
+    width: 288px;
+    left: 0;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: right;
+    display: none;
+}
+.bag .cart .product {
+    margin-bottom: 1rem;
+}
+.bag .cart .product h4 {
+    font-size: 16px;
+}
+.bag .cart .btn {
+    display: block;
+    background: #42a1ec; /* Old browsers */
+    background: -moz-linear-gradient(top, #42a1ec 0%, #0070c9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #42a1ec 0%,#0070c9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #42a1ec 0%,#0070c9 100%);
+    margin-bottom: 1rem;
+}
+.bag .cart ul {
+    list-style: none;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.bag .cart ul li {
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.bag .cart ul li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: unset;
+}
+.bag .cart ul li a i {
+    margin-left: 15px;
+}
+.img1{
+    height: 260px;
+    width: 460px;
+}
+.three{
+    text-align: center;
+    padding-top: 60px;
+}
+.img4{
+    width: 400px;
+    height: 500px;
+}
+.img4-1{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 196px;
+
+}
+#A{
+    margin: 8px;
+}
+#Z{
+    margin: 8px;
+}
+#fourtwo img{
+    width: 200px;
+    height: 300px;
+    margin: 8px;
+}
+.img4-3{
+    height: 260px;
+    width: 460px;
+}
+#fourthree2{
+    margin-top: 85px;
+}
+.fivee{
+    text-align: center;
+}
+.h2{
+    margin-top: 60px;
+}
+.p{
+    margin-bottom: 40px;
+}
+#ul{
+    color: #000000;
+    list-style: none;
+}
+.seven{
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+#q{
+    background-color: #f2f2f2;
+}
+.four{
+    background-color: #f2f2f2;
+}
+.five{
+    background-color: #fcf7f7;
+}
+#six{
+    list-style: none;
+}
+a{
+    color: #000;
+}
